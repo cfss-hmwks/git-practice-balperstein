@@ -45,7 +45,7 @@ ggplot(mtcars)+
                       size = hp))+ 
                       #label = rownames(mtcars), check_overlap = TRUE) +
   theme_bw() +
-  scale_color_manual(values = c("green", "red", "white") ) +
+  scale_color_manual(values = c("green", "red", "blue") ) +
   labs(title = "Car MPG vs weight", 
        x = 'Miles per gallon',
        y = 'Car weight',
