@@ -50,6 +50,7 @@ ggplot(mtcars)+
        x = 'Miles per gallon',
        y = 'Car weight',
        shape="Cylinders", size="Horsepower", color = "Cylinders",
-       caption = "Source: mtcars")
+       caption = "Source: mtcars") #theme_bw
+
 
 ```
